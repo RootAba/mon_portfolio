@@ -483,6 +483,9 @@ form textarea {
   .contact-button{
     margin-left: 25%;
   }
+  section {
+    padding: 50px 4%;
+  }
 }
 @media (max-width: 340px) {
   :root {
@@ -510,5 +513,34 @@ form textarea {
   }
   .contact-button{
     margin-left: 25%;
+  }
+
+  section {
+    padding: 50px 4%;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    --big-font: 1.7rem;
+    --medium-font: 1.1rem;
+  }
+  section {
+    padding: 50px;
+  }
+  .about-text p {
+  font-size: var(--p-font);
+  font-weight: 400;
+  text-align: justify;
+  padding: 20px;
+}
+}
+
+@media (max-width: 600px) {
+  :root {
+    --big-font: 1.7rem;
+    --medium-font: 1.1rem;
+  }
+  section {
+    padding: 50px;
   }
 }
