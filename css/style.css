@@ -519,6 +519,7 @@ form textarea {
     padding: 50px 4%;
   }
 }
+
 @media (max-width: 400px) {
   :root {
     --big-font: 1.7rem;
